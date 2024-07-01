@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --backgroundColor: hsl(0, 0%, 5%);
+  --textColor: hsl(0, 0%, 93%);
+  --accentColor: hsl(94, 91%, 57%);
+}
