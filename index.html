@@ -8,50 +8,71 @@
   </head>
   <body>
     <main class="container">
-      <section class="first-half">
-        <img
-          src="/images/hero.webp"
-          alt="a picture of Mishael, the author of this page"
-          data-testid="slackProfilePicture"
-        />
-        <div>
-          <h1>Hi, my name is Mishael</h1>
+      <div class="inner-container">
+        <section class="first-half">
+          <img
+            src="/images/hero.webp"
+            alt="a picture of Mishael, the author of this page"
+            data-testid="slackProfilePicture"
+          />
           <div>
-            <p>
-              Slack Display Name:
-              <strong data-testid="slackDisplayName">mishaelcodes</strong>
-            </p>
-            <p>
-              Slack Email:
-              <strong data-testid="slackEmail">enyimishael22@gmail.com</strong>
-            </p>
+            <h1>Mishael</h1>
+            <div>
+              <p>
+                Slack Name:
+                <strong data-testid="slackDisplayName"
+                  ><a href="https://hng11.slack.com/team/U07A40QJJ0L"
+                    >mishaelcodes</a
+                  ></strong
+                >
+              </p>
+              <p>
+                Slack Email:
+                <strong data-testid="slackEmail"
+                  ><a href="mailto:enyimishael22@gmail.com"
+                    >enyimishael22@gmail.com</a
+                  ></strong
+                >
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="second-half">
-        <div>
-          <h2 class="second-header">My Tech Goals for the Next Two Years</h2>
-          <p>My tech goals for the next two years are as follows:</p>
-          <ul class="list-of-goals">
-            <li>Learn NextJS</li>
-            <li>Be a finalist of HNGi11</li>
-            <li>Become even better at React</li>
-            <li>Become better at Vue</li>
-            <li>Get a full time job as a frontend developer</li>
-            <li>Improve my frontend skills and learn new technologies</li>
-            <li>Be a world-class developer</li>
-          </ul>
-        </div>
-      </section>
+        </section>
+        <section class="second-half">
+          <div>
+            <h2 class="second-header">Tech Goals</h2>
+            <p>My tech goals for the next two years is to...</p>
+            <ul class="list-of-goals">
+              <li>Learn NextJS</li>
+              <li>Be a finalist of HNGi11</li>
+              <li>Be an even better React Developer</li>
+              <li>Learn Vue</li>
+              <li>Get a full time job as a frontend developer</li>
+              <li>Improve my frontend skills and learn new technologies</li>
+              <li>Be a world-class developer</li>
+              <li>Own cool tech</li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
       <div>
-        <p class="date">Today: <span id="day"></span>, Time: <span id="time"></span> UTC</p>
+        <p class="date"><span id="day"></span>, <span id="time"></span> UTC</p>
       </div>
       <ul class="links">
-        <li class="link"><a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
-        <li class="link"><a href="http://keyword.dog/" data-testid="keywordLink">Keyword Link</a></li>
-        <li class="link"><a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">Scrape Link</a></li>
+        <li class="link">
+          <a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+        </li>
+        <li class="link">
+          <a href="http://keyword.dog/" data-testid="keywordLink"
+            >Keyword Link</a
+          >
+        </li>
+        <li class="link">
+          <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink"
+            >Scrape Link</a
+          >
+        </li>
       </ul>
     </footer>
     <script src="script.js"></script>
