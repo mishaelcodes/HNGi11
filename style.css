@@ -48,8 +48,7 @@ h1 + p {
   margin: 0 auto;
 }
 
-strong a {
-  text-decoration: none;
+strong {
   color: var(--accentColor);
 }
 
